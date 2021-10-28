@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: shopping-cart
 
-server:
-  port: 8082
+  cloud:
+    config:
+      url: http://localhost:8888
